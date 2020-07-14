@@ -13,6 +13,7 @@
 		CC1C441E24BD781B00523948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1C441C24BD781B00523948 /* Main.storyboard */; };
 		CC1C442024BD781D00523948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1C441F24BD781D00523948 /* Assets.xcassets */; };
 		CC1C442324BD781D00523948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1C442124BD781D00523948 /* LaunchScreen.storyboard */; };
+		CC1C442B24BD81F500523948 /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C442A24BD81F500523948 /* NotificationPublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC1C441F24BD781D00523948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1C442224BD781D00523948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1C442424BD781D00523948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1C442A24BD81F500523948 /* NotificationPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CC1C441F24BD781D00523948 /* Assets.xcassets */,
 				CC1C442124BD781D00523948 /* LaunchScreen.storyboard */,
 				CC1C442424BD781D00523948 /* Info.plist */,
+				CC1C442A24BD81F500523948 /* NotificationPublisher.swift */,
 			);
 			path = Localnotifications;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				CC1C441B24BD781B00523948 /* ViewController.swift in Sources */,
 				CC1C441724BD781B00523948 /* AppDelegate.swift in Sources */,
 				CC1C441924BD781B00523948 /* SceneDelegate.swift in Sources */,
+				CC1C442B24BD81F500523948 /* NotificationPublisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
